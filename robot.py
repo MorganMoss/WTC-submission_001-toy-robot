@@ -24,7 +24,7 @@ def move_square(size):
 
 def move_rectangle(length, width):
     """
-    length and width decide the distance the robot will go
+    Length and width decide the distance the robot will go
     for the two sides of the rectangle. If they are equal,
     they will move in a square 
     """
@@ -77,6 +77,7 @@ def move_crop_circles(length):
 
 def move():
     """
+    check_all_moves()
     This Goes through each preprogrammed 
     movement pattern available to the 
     robot.
