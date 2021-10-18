@@ -54,8 +54,8 @@ def move_circle(length = 1):
 
 def move_square_dancing(length):
     """
-    Will move forward and move in a square, repeat 3 times
-    length decides the size of the square and the distance
+    Will move forward and move in a square, repeat 3 times.
+    Length decides the size of the square and the distance
     it will move forward
     """
     print(f"Square dancing - 3 squares of size {length}")
@@ -66,8 +66,8 @@ def move_square_dancing(length):
 
 def move_crop_circles(length):
     """
-    Will move forward and move in a circle, repeat 4 times
-    length decides how far it moves forward
+    Will move forward and move in a circle, repeat 4 times.
+    Length decides how far it moves forward
     """
     print("Crop circles - 4 circles")
     for i in range(4):
@@ -89,8 +89,14 @@ def move():
 
 
 def robot_start():
+    """
+    The robot will start moving when this is called
+    """
     move()
 
 
 if __name__ == "__main__":
+    """
+    Starting the Program
+    """
     robot_start()
